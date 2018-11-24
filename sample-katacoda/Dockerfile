@@ -1,1 +1,1 @@
-from ubuntu:latest
+from ubuntu:14.04
