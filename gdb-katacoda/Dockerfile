@@ -1,3 +1,4 @@
+#syntax: docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v $(pwd):/workspace -it daa82/gdb-katacoda /bin/bash
 from ubuntu:latest
 
 run apt-get update && apt-get upgrade -y
