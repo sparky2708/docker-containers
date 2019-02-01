@@ -26,6 +26,9 @@ run cd R-3.0.1 && make install && make install-info && make install-pdf
 run rm R-3.0.1.tar.gz
 run rm -rf R-3.0.1
 
+#not supported for R-3.0.1
+#run Rscript -e "install.packages('microbenchmark', repos = 'http://cran.us.r-project.org')"
+
 run mkdir /workspace
 workdir /workspace
                 
